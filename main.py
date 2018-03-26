@@ -290,7 +290,7 @@ def menu():
 def memes():
 	
 	
-	path = "/home/daniel/pythonstuff/Physics-Solver/memes"
+	path = "memes"
 	files = [f for f in listdir(path) if isfile(join(path, f))]
 	frame=Frame(root)
 	frame.grid(row=0,column=0)
